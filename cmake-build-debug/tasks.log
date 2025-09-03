@@ -1,0 +1,110 @@
+[ ] TaskScheduler started with 4 threads
+[ ] [thr=0] RUN id=2, name="Task #2 (p=7)", p=7, deadline_ms_left=3999
+[ ] [thr=1] RUN id=5, name="Task #5 (p=9)", p=9, deadline_ms_left=3999
+[ ] [thr=3] RUN id=3, name="Task #3 (p=3)", p=3, deadline_ms_left=2999
+[ ] [thr=3] RUN id=3, name="Task #3 (p=3)", p=3, deadline_ms_left=2999
+[ ] [thr=2] RUN id=8, name="Task #8 (p=8)", p=8, deadline_ms_left=2999
+[ ] [thr=1] DONE id=5, name="Task #5 (p=9)", p=9
+[ ] [thr=2] DONE id=8, name="Task #8 (p=8)", p=8
+[ ] [thr=0] DONE id=2, name="Task #2 (p=7)", p=7
+[ ] [thr=2] RUN id=26, name="Task #26 (p=10)", p=10, deadline_ms_left=961
+[ ] [thr=3] DONE id=3, name="Task #3 (p=3)", p=3
+[ ] [thr=1] RUN id=43, name="Task #43 (p=10)", p=10, deadline_ms_left=960
+[ ] [thr=0] RUN id=17, name="Task #17 (p=10)", p=10, deadline_ms_left=2960
+[ ] [thr=3] RUN id=40, name="Task #40 (p=10)", p=10, deadline_ms_left=4959
+[ ] [thr=1] DONE id=43, name="Task #43 (p=10)", p=10
+[ ] [thr=3] DONE id=40, name="Task #40 (p=10)", p=10
+[ ] [thr=1] RUN id=42, name="Task #42 (p=10)", p=10, deadline_ms_left=4915
+[ ] [thr=2] DONE id=26, name="Task #26 (p=10)", p=10
+[ ] [thr=0] DONE id=17, name="Task #17 (p=10)", p=10
+[ ] [thr=2] RUN id=18, name="Task #18 (p=9)", p=9, deadline_ms_left=1913
+[ ] [thr=0] RUN id=32, name="Task #32 (p=9)", p=9, deadline_ms_left=1913
+[ ] [thr=3] RUN id=21, name="Task #21 (p=9)", p=9, deadline_ms_left=3912
+[ ] [thr=0] DONE id=32, name="Task #32 (p=9)", p=9
+[ ] [thr=1] DONE id=42, name="Task #42 (p=10)", p=10
+[ ] [thr=0] RUN id=47, name="Task #47 (p=9)", p=9, deadline_ms_left=3868
+[ ] [thr=2] DONE id=18, name="Task #18 (p=9)", p=9
+[ ] [thr=3] DONE id=21, name="Task #21 (p=9)", p=9
+[ ] [thr=2] RUN id=7, name="Task #7 (p=8)", p=8, deadline_ms_left=4867
+[ ] [thr=3] RUN id=41, name="Task #41 (p=8)", p=8, deadline_ms_left=4867
+[ ] [thr=1] RUN id=25, name="Task #25 (p=7)", p=7, deadline_ms_left=1867
+[ ] [thr=1] DONE id=25, name="Task #25 (p=7)", p=7
+[ ] [thr=3] DONE id=41, name="Task #41 (p=8)", p=8
+[ ] [thr=1] RUN id=37, name="Task #37 (p=7)", p=7, deadline_ms_left=1822
+[ ] [thr=2] DONE id=7, name="Task #7 (p=8)", p=8
+[ ] [thr=0] DONE id=47, name="Task #47 (p=9)", p=9
+[ ] [thr=2] RUN id=27, name="Task #27 (p=7)", p=7, deadline_ms_left=2821
+[ ] [thr=0] RUN id=46, name="Task #46 (p=7)", p=7, deadline_ms_left=2821
+[ ] [thr=3] RUN id=31, name="Task #31 (p=7)", p=7, deadline_ms_left=3821
+[ ] [thr=3] DONE id=31, name="Task #31 (p=7)", p=7
+[ ] [thr=0] DONE id=46, name="Task #46 (p=7)", p=7
+[ ] [thr=3] RUN id=20, name="Task #20 (p=7)", p=7, deadline_ms_left=4776
+[ ] [thr=1] DONE id=37, name="Task #37 (p=7)", p=7
+[ ] [thr=2] DONE id=27, name="Task #27 (p=7)", p=7
+[ ] [thr=1] RUN id=28, name="Task #28 (p=6)", p=6, deadline_ms_left=775
+[ ] [thr=0] RUN id=45, name="Task #45 (p=6)", p=6, deadline_ms_left=3775
+[ ] [thr=2] RUN id=49, name="Task #49 (p=5)", p=5, deadline_ms_left=775
+[ ] [thr=3] DONE id=20, name="Task #20 (p=7)", p=7
+[ ] [thr=3] RUN id=11, name="Task #11 (p=5)", p=5, deadline_ms_left=745
+[ ] [thr=2] DONE id=49, name="Task #49 (p=5)", p=5
+[ ] [thr=1] DONE id=28, name="Task #28 (p=6)", p=6
+[ ] [thr=0] DONE id=45, name="Task #45 (p=6)", p=6
+[ ] [thr=2] RUN id=24, name="Task #24 (p=5)", p=5, deadline_ms_left=2727
+[ ] [thr=0] RUN id=6, name="Task #6 (p=5)", p=5, deadline_ms_left=2727
+[ ] [thr=1] RUN id=23, name="Task #23 (p=5)", p=5, deadline_ms_left=2726
+[ ] [thr=3] DONE id=11, name="Task #11 (p=5)", p=5
+[ ] [thr=3] RUN id=12, name="Task #12 (p=5)", p=5, deadline_ms_left=2700
+[ ] [thr=0] DONE id=6, name="Task #6 (p=5)", p=5
+[ ] [thr=1] DONE id=23, name="Task #23 (p=5)", p=5
+[ ] [thr=2] DONE id=24, name="Task #24 (p=5)", p=5
+[ ] [thr=0] RUN id=44, name="Task #44 (p=5)", p=5, deadline_ms_left=4683
+[ ] [thr=2] RUN id=15, name="Task #15 (p=5)", p=5, deadline_ms_left=4682
+[ ] [thr=1] RUN id=34, name="Task #34 (p=4)", p=4, deadline_ms_left=1682
+[ ] [thr=3] DONE id=12, name="Task #12 (p=5)", p=5
+[ ] [thr=3] RUN id=10, name="Task #10 (p=4)", p=4, deadline_ms_left=1653
+[ ] [thr=2] DONE id=15, name="Task #15 (p=5)", p=5
+[ ] [thr=1] DONE id=34, name="Task #34 (p=4)", p=4
+[ ] [thr=0] DONE id=44, name="Task #44 (p=5)", p=5
+[ ] [thr=2] RUN id=9, name="Task #9 (p=4)", p=4, deadline_ms_left=1636
+[ ] [thr=0] RUN id=16, name="Task #16 (p=3)", p=3, deadline_ms_left=636
+[ ] [thr=1] RUN id=4, name="Task #4 (p=3)", p=3, deadline_ms_left=1635
+[ ] [thr=3] DONE id=10, name="Task #10 (p=4)", p=4
+[ ] [thr=3] RUN id=22, name="Task #22 (p=3)", p=3, deadline_ms_left=1607
+[ ] [thr=0] DONE id=16, name="Task #16 (p=3)", p=3
+[ ] [thr=1] DONE id=4, name="Task #4 (p=3)", p=3
+[ ] [thr=2] DONE id=9, name="Task #9 (p=4)", p=4
+[ ] [thr=0] RUN id=33, name="Task #33 (p=3)", p=3, deadline_ms_left=2586
+[ ] [thr=2] RUN id=30, name="Task #30 (p=3)", p=3, deadline_ms_left=3585
+[ ] [thr=1] RUN id=38, name="Task #38 (p=3)", p=3, deadline_ms_left=4581
+[ ] [thr=3] DONE id=22, name="Task #22 (p=3)", p=3
+[ ] [thr=3] RUN id=29, name="Task #29 (p=3)", p=3, deadline_ms_left=4577
+[ ] [thr=2] DONE id=30, name="Task #30 (p=3)", p=3
+[ ] [thr=0] DONE id=33, name="Task #33 (p=3)", p=3
+[ ] [thr=1] DONE id=38, name="Task #38 (p=3)", p=3
+[ ] [thr=2] RUN id=50, name="Task #50 (p=2)", p=2, deadline_ms_left=544
+[ ] [thr=1] RUN id=48, name="Task #48 (p=2)", p=2, deadline_ms_left=544
+[ ] [thr=0] RUN id=39, name="Task #39 (p=2)", p=2, deadline_ms_left=2543
+[ ] [thr=3] DONE id=29, name="Task #29 (p=3)", p=3
+[ ] [thr=3] RUN id=14, name="Task #14 (p=2)", p=2, deadline_ms_left=3531
+[ ] [thr=0] DONE id=39, name="Task #39 (p=2)", p=2
+[ ] [thr=3] DONE id=14, name="Task #14 (p=2)", p=2
+[ ] [thr=2] DONE id=50, name="Task #50 (p=2)", p=2
+[ ] [thr=3] RUN id=35, name="Task #35 (p=1)", p=1, deadline_ms_left=499
+[ ] [thr=1] DONE id=48, name="Task #48 (p=2)", p=2
+[ ] [thr=0] RUN id=36, name="Task #36 (p=1)", p=1, deadline_ms_left=1498
+[ ] [thr=2] RUN id=1, name="Task #1 (p=1)", p=1, deadline_ms_left=1497
+[ ] [thr=1] RUN id=13, name="Task #13 (p=1)", p=1, deadline_ms_left=3497
+[ ] [thr=3] DONE id=35, name="Task #35 (p=1)", p=1
+[ ] [thr=1] DONE id=13, name="Task #13 (p=1)", p=1
+[ ] [thr=3] RUN id=19, name="Task #19 (p=1)", p=1, deadline_ms_left=4451
+[ ] [thr=0] DONE id=36, name="Task #36 (p=1)", p=1
+[ ] [thr=2] DONE id=1, name="Task #1 (p=1)", p=1
+[ ] [thr=3] DONE id=19, name="Task #19 (p=1)", p=1
+[ ] [thr=3] exit worker
+[ ] [thr=3] exit worker
+[ ] [thr=1] exit worker
+[ ] [thr=0] exit worker
+[ ] [thr=0] exit worker
+[ ] [thr=1] exit worker
+[ ] [thr=2] exit worker
+[ ] TaskScheduler stopped
